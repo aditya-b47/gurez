@@ -6,6 +6,7 @@ import PetProducts from "../components/PetProducts";
 import BeautyItems from "../components/BeautyItems";
 import WoodenItems from "../components/WoodenItems";
 import CustomItems from "../components/CustomItems";
+import ProductPage from "../components/ProductPage";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: "/custom-items",
                 element: <CustomItems />
+            },
+            {
+                path: "/product-page",
+                element: <ProductPage />
             }
         ]
     }
