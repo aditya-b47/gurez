@@ -7,6 +7,9 @@ import BeautyItems from "../components/BeautyItems";
 import WoodenItems from "../components/WoodenItems";
 import CustomItems from "../components/CustomItems";
 import ProductPage from "../components/ProductPage";
+import LoginPage from "../components/LoginPage";
+import CreateAccountPage from "../components/RegisterPage";
+import HomePage from "../components/Home";
 
 const router = createBrowserRouter([
     {
@@ -15,7 +18,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "",
-                element: <App />
+                element: <HomePage />
             },
             {
                 path: "/packing-material",
@@ -40,6 +43,14 @@ const router = createBrowserRouter([
             {
                 path: "/product-page",
                 element: <ProductPage />
+            },
+            {
+                path: "/login",
+                element: <LoginPage />
+            },
+            {
+                path: "/register",
+                element: <CreateAccountPage />
             }
         ]
     }

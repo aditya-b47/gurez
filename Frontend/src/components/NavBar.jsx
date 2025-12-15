@@ -72,7 +72,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-4 align-middle px-4">
         <li><Link to="/" className="text-white">Home</Link></li>
         <li><Link to="/packing-material" className="text-white">Packing Material</Link></li>
         <li><Link to="/pet-products" className="text-white">Pet Products</Link></li>
